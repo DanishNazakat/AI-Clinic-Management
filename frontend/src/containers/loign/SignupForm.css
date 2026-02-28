@@ -1,0 +1,28 @@
+/* src/components/SignupForm.css ke akhir mein add karein */
+
+.message-box {
+    position: absolute;
+    top: 40px;
+    padding: 12px 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    color: white;
+    /* Slide down effect */
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.message-box.error {
+    background: #e74c3c; /* Red for Error */
+}
+
+.message-box.success {
+    background: #27ae60; /* Green for Success */
+}
