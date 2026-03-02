@@ -44,7 +44,7 @@ const AdminDashboard = () => {
           <p>${stats.totalRevenue}</p>
         </div>
         <div>
-          <h4>Activ</h4>
+          <h4>Active Plan</h4>
           <p>{stats.activePlan}</p>
         </div>
       </div>
